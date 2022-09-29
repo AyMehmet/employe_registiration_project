@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/employee")
 public class EmployeeController {
 
-    @GetMapping
+    @GetMapping("/register")
     public String createEmployee(){
-        return "employee/empoyee_create";
+        return "employee/employee_create";
     }
 }
